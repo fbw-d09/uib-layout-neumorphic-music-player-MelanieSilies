@@ -1,0 +1,124 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 380px;
+    background: #ececec;
+    border-radius: 5px;
+    box-shadow:  
+    9px 9px 33px #d6d6d6,
+    -9px -9px 33px #ffffff;
+    padding: 10px;   
+    margin-left: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#power {
+    color: red;
+}
+
+#power:hover {
+    color: darkred;
+}
+
+.fa-magnifying-glass:hover ,
+.fa-forward:hover ,
+.fa-backward:hover {
+    color: grey;
+}
+
+.fa-play,
+.fa-power-off,
+.fa-magnifying-glass 
+{
+    border-radius: 5px;
+    font-size: 18px;
+    background: #f5f5f5;
+    box-shadow: 
+    inset 11px 11px 33px #d7d7d7,
+    inset -11px -11px 33px #f9f9f9;
+    padding: 15px;
+}
+.fa-forward, .fa-backward {
+    font-size: 18px;
+    border-radius: 5px;
+    background: #f0f0f0;
+    box-shadow: -8px 8px 16px #e2e2e2,
+                8px -8px 16px #fefefe;
+    padding: 15px;
+}
+
+.fa-play:hover {
+    scale: 1.2;
+    color: rgb(0, 192, 192);
+}
+
+.bild {
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(./assets/Smash-Into-Pieces-Not-Waiting-For-Heaven-Cover.jpeg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow:  -4px 4px 10px #939292,
+             4px -4px 10px #ffffff;
+}
+
+p {
+    text-align: center;
+}
+
+.artist {
+    font-weight: bolder;
+    color: grey;
+}
+
+.progresscontainer {
+    display: flex;
+    justify-content: center;
+} 
+
+.progressBar {
+    border: 2px solid rgba(184, 184, 184, 0.551);
+    height: 10px;
+    width: 80%;
+    border-radius: 5px;
+} 
+
+.progress {
+    height: 10px;
+    width: 70%;
+    background: rgb(194,240,245);
+    background: linear-gradient(90deg, rgba(194,240,245,1) 0%, rgba(10,132,179,1) 46%, rgba(23,245,255,1) 100%);
+}
+
+.playbuttons {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play {
+    color: aqua;
+}
+
+.rille {
+    margin: 0 auto;
+    width: 70%;
+    height: 6px;
+    border-radius: 12px;
+    background: #c4c4c4;
+    box-shadow: 
+    inset -3px 3px 3px #7f7f7f,
+    inset 3px -3px 3px #ffffff;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}

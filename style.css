@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* .container {
+    width: 400px;
+    height: 600px;
+    display: grid;
+    padding: 10px;
+    border-radius: 9px;
+    background: #efefef;
+    box-shadow:  
+    -28px 28px 56px#e8e8e8,
+    28px -28px 56px#ffffff;
+    grid-template-areas:
+    "search playlist power"
+    ".      bild         ."
+    ".      title        ."
+    ".      artist       ."
+    ".      balken       ."
+    ".      playbuttons  .";
+
+    grid-template-columns:
+    1fr 2fr 1fr;
+
+    grid-template-rows:
+    1fr
+    3fr
+    1fr
+    1fr
+    1fr
+    1fr;
+    
+}
+
+.btn {
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    border: none;
+}
+
+.btn1{
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #bebebe,
+    inset -5px -5px 10px #ffffff;
+}
+
+.btn2 {
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow:  -5px 5px 10px #bebebe,
+    5px -5px 10px #ffffff;
+}
+
+
+.bild {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow:  -5px 5px 10px #bebebe,
+    5px -5px 10px #ffffff;
+    background-image: url(./assets/Smash-Into-Pieces-Not-Waiting-For-Heaven-Cover.jpeg);
+    background-size: contain;
+    grid-area: bild;
+}
+
+.search {
+    grid-area: search;
+}
+
+.power {
+    color: red;
+    grid-area: power;
+}
+
+.artist {
+    color: #bebebe;
+    font-weight: bold;
+    grid-area: artist;
+    border: 2px solid red;
+}
+
+.balken {
+    height: 8px;
+    width: 300px;
+    background: rgb(194,240,245);
+    background: linear-gradient(90deg, rgba(194,240,245,1) 0%, rgba(10,132,179,1) 46%, rgba(23,245,255,1) 100%);
+    grid-area: balken;
+}
+.title {
+    grid-area: title;
+    border: 2px solid red;
+}
+
+.playlist {
+    grid-area: playlist;
+    border: 2px solid red;
+}
+
+.playbuttons {
+    grid-area: playbuttons;
+} */
+
+.container {
+    width: 400px;
+    height: 650PX;
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    justify-content: center;
+}
+
+.btn1{
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #bebebe,
+    inset -5px -5px 10px #ffffff;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+    border: 2px solid red;
+}
+
+.bild img{
+    width: 250px;
+    border-radius: 50%;
+    box-shadow:  -5px 5px 10px #bebebe,
+    5px -5px 10px #ffffff;
+    border: 2px solid red;
+}
+
+
+
+
+
+
